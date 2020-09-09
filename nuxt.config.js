@@ -29,16 +29,20 @@ export default {
   ** Global CSS
   */
   css: [
+    'element-ui/lib/theme-chalk/index.css',
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    {src: '@/plugins/ElementUI', ssr: true },
+    {src: '@/plugins/ParticlesBG', mode: 'client'},
+    {src: '@/plugins/VueParticles', mode: 'client'},
   ],
   /*
   ** Auto import components
-  ** See https://nuxtjs.org/api/configuration-components
+  ** See https://nuxtjs.org/api/configuration-components1
   */
   components: true,
   /*
@@ -56,5 +60,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    vendor: ['axios']
   }
 }
