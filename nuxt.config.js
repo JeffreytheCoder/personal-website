@@ -30,6 +30,8 @@ export default {
   */
   css: [
     'element-ui/lib/theme-chalk/index.css',
+    'aos/dist/aos.css',
+    'vue-typed-js/dist/vue-typed-js.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -39,6 +41,8 @@ export default {
     {src: '@/plugins/ElementUI', ssr: true },
     {src: '@/plugins/ParticlesBG', mode: 'client'},
     {src: '@/plugins/VueParticles', mode: 'client'},
+    {src: '@/plugins/aos.js', mode: 'client'},
+    {src: '@/plugins/VueTypedJS.js', mode: 'client'},
   ],
   /*
   ** Auto import components
@@ -54,6 +58,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['vue-scrollto/nuxt', {duration: 1000}],
   ],
   /*
   ** Build configuration

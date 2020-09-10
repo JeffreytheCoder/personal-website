@@ -19,7 +19,7 @@
       clickMode="push"
     >
     </vue-particles> -->
-    <particles-bg class="particles-bg" type="cobweb" color="black" num=30 :bg="false"/>
+    <particles-bg class="particles-bg" type="cobweb" color="black" num=50 :bg="false"/>
     <!-- "color"
     "ball"
     "lines"
@@ -40,7 +40,12 @@
         background-color="#303030"
         text-color="white"
         active-text-color="#303030">
-        <el-menu-item class="nav-header-item" style="float: left">Jeffrey Yu</el-menu-item>
+        <a id="top" class="header-a" href="#" v-scroll-to="'#top'" style="float: left">
+          <el-menu-item class="nav-header-item">Jeffrey Yu</el-menu-item>
+        </a>
+        <a class="header-a" href="https://github.com/JeffreytheCoder/personal-website" style="float: left;">
+          <el-menu-item class="nav-header-item" style="font-weight: 600; color: #E31B6D">v1.0.1</el-menu-item>
+        </a>
         <a class="header-a" href="#about-me">
           <el-menu-item class="nav-header-item">Contact</el-menu-item>
         </a>
@@ -53,41 +58,58 @@
         <a class="header-a" href="#about-me">
           <el-menu-item class="nav-header-item">Experience</el-menu-item>
         </a>
-        <a class="header-a" href="#about-me">
+        <a class="header-a" href="#" v-scroll-to="'#about-me'">
           <el-menu-item class="nav-header-item">About Me</el-menu-item>
         </a>
         </el-menu>
       </el-header>
-        <el-main class="main-body">
+        <el-main class="main-body" data-aos="fade-up">
           <div class="greeting-block">
-            <el-row>
               <h1 class="hello-world">Hello World</h1>
-            </el-row>
-            <el-row>
-              <h1 class="greeting">I'm Jeffrey Yu</h1>
-            </el-row>
-            <el-row>
-              <a class="know-btn-a" href="#about-me">
+              <vue-typed-js 
+                :strings="['Jeffrey Yu', 'a Frontend Developer', 'a Student', 'a Thinker', 'an Environmentalist', 'a Pioneer']" 
+                :typeSpeed="50" 
+                :backSpeed="50"
+                :startDelay="1000" 
+                :backDelay="1000"
+                :loop="true">
+                <h1 class="greeting">I'm <span class="typing" style="color: #E31B6D"></span></h1> 
+                <!-- 05C2C9 -->
+              </vue-typed-js>
+              <a class="know-btn-a" href="#" v-scroll-to="'#about-me'">
                 <el-button class="know-btn" type="info">
                   Know About Me
                 </el-button>
               </a>
-            </el-row>
-            <el-row>
               <h2 class="personality">Code with an innovative mind and a nice jacket.</h2>
               <!-- <h2 class="personality">Innovative. Passionate. Self-Challenging.</h2> -->
-            </el-row>
           </div>
-          <div class="info-block">
-            <h1 class="subtitle"> 
+
+          <!-- About Me -->
+          <div data-aos="fade-up" class="info-block">
+            <h1 class="subtitle" id="about-me"> 
               <a name="about-me"><i class="el-icon-user"></i> About Me</a>
             </h1>
             <!-- <hr style="width:20%; margin:0px; background-color:gray; height:0.5px; border:none;"/> -->
             <div class="about-me">
-              <img class="avatar" src="@/assets/avatar.jpg" />
+              <img class="avatar" src="@/assets/avatar2.jpg" />
               <p class="description">I am a frontend developer who enjoyed in designing, developing, and maintaining complex web apps. 
-                Skilled in Vue.js, JavaScript, and Python. I am passionate about building frontier software and pursuing to become a full-stack developer. 
-                I am currently a Computer Science undergraduate at University of California, Los Angeles.</p>
+                Skilled in <span style="font-weight: 600; color: #E31B6D">Vue.js, JavaScript, and Python</span>. I am passionate about building frontier software and pursuing to become a full-stack developer. 
+                I am currently a Math of Computation undergraduate at <span style="font-weight: 600; color: #E31B6D">University of California, Los Angeles.</span></p>
+            </div>
+          </div>
+          
+          <!-- Experience -->
+          <div data-aos="fade-up" class="info-block">
+            <h1 class="subtitle" id="experience"> 
+              <a name="experience"><i class="el-icon-s-suitcase"></i> About Me</a>
+            </h1>
+            <!-- <hr style="width:20%; margin:0px; background-color:gray; height:0.5px; border:none;"/> -->
+            <div class="experience">
+              <img class="avatar" src="@/assets/img/avatar2.jpg" />
+              <p class="description">I am a frontend developer who enjoyed in designing, developing, and maintaining complex web apps. 
+                Skilled in <span style="font-weight: 600; color: #E31B6D">Vue.js, JavaScript, and Python</span>. I am passionate about building frontier software and pursuing to become a full-stack developer. 
+                I am currently a Math of Computation undergraduate at <span style="font-weight: 600; color: #E31B6D">University of California, Los Angeles.</span></p>
             </div>
           </div>
         </el-main>
@@ -99,6 +121,12 @@
 <script>
 export default {
   name: "App",
+  data() {
+    return {
+    }
+  },
+  created() {
+  },
   methods: {
   }
 }
@@ -107,9 +135,17 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap");
 
+/* PAGE */
+
 .page {
   font-family: 'Titillium Web', 'sans-serif';
   color: white;
+}
+
+.main-body {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .particles-bg {
@@ -120,11 +156,17 @@ export default {
   z-index: -1;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: center;
+  max-width: 200px;
+}
+
 .container {
   position: relative;
   z-index: 2;
-  overflow: scroll;
 }
+
 .el-menu.el-menu--horizontal {
   border-bottom: none;
 }
@@ -141,13 +183,10 @@ export default {
   border: none;
 }
 
-.main-body {
-  width: 60%;
-  margin: 0 auto;
-}
+/* GREETING */
 
 .greeting-block {
-  color: white;
+  height: 80%;
 }
 
 .hello-world {
@@ -158,12 +197,14 @@ export default {
 
 .greeting {
   font-weight: 600;
-  font-size: 100px;
+  font-size: 90px;
 }
 
 .know-btn {
   font-family: 'Titillium Web', 'sans-serif';
   background-color: rgba(48, 48, 48, 0);
+  color: white;
+  border-color: #E31B6D;
   margin-top: 2%;
   font-size: 25px;
 }
@@ -179,14 +220,18 @@ export default {
   font-size: 40px;
 }
 
+/* CONTENT */
+
 .info-block {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .subtitle {
   font-weight: 600;
   font-size: 40px;
 }
+
+/* ABOUT ME */
 
 .about-me {
   display: flex;
