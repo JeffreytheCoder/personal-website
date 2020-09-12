@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="fade-up" class="info-block">
+  <div data-aos="fade-up" class="info-block" style="margin-top: 7%">
     <h1 class="subtitle" id="experience"> 
       <a name="experience"><i class="el-icon-suitcase"></i> Experience</a>
     </h1>
@@ -18,7 +18,8 @@
       <p class="description">
         <span class="title">Researcher <a class="link" href="https://pioneeracademics.com/" target="_blank"><span style="font-weight: 600; color: #E31B6D">@ Pioneer Academics</span></a></span><br>
         <span class="time">Jun 2019 - Oct 2019 (5 mos)</span><br><br>
-        ▪ Guided by Prof. Anasse Bari from New York University, applied KNN and Hierarchical clustering algorithms to analyze the digital images of breast masses using RapidMiner, predicted accuracy of breast cancer diagnosis reaching 85.3%<br>
+        ▪ Guided by Prof. Anasse Bari from New York University, applied KNN and Hierarchical clustering algorithms to analyze the digital images of breast masses using RapidMiner, predicted accuracy of breast cancer diagnosis reaching 85.3%<br><br>
+        <a class="link" href="https://drive.google.com/file/d/1XvYTME5-CbPUiLMOzt0F_VmWop5SQjJ1/view?usp=sharing" target="_blank"><span style="font-weight: 500; color: #E31B6D">> VIEW PAPER</span></a>
       </p>
     </div><br>
     <div class="experience">
@@ -26,7 +27,8 @@
       <p class="description">
         <span class="title">Research Assistant <a class="link" href="http://www.soil.gd.cn/channel.action?chnlid=3813" target="_blank"><span style="font-weight: 600; color: #E31B6D">@ Guangdong Institute of Eco-environmental Science & Technology</span></a></span><br>
         <span class="time">Jun 2019 - Aug 2019 (3 mos)</span><br><br>
-        ▪ With Prof. Weilin Huang from Rutgers University, collected the zeta potential of carbon nanoparticles in sweat, used Matlab to fit a DLVO colloidal stability model, rewrote the lab code for calculating the critical coagulation concentrations
+        ▪ With Prof. Weilin Huang from Rutgers University, collected the zeta potential of carbon nanoparticles in sweat, used Matlab to fit a DLVO colloidal stability model, rewrote the lab code for calculating the critical coagulation concentrations<br><br>
+        <a class="link" href="https://drive.google.com/file/d/1xjLbBZaLyOc8Tw4k2L4ZSLxIKxoChAvu/view?usp=sharing" target="_blank"><span style="font-weight: 500; color: #E31B6D">> VIEW REPORT</span></a>
       </p>
     </div><br>
   </div>

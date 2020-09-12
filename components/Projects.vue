@@ -172,7 +172,7 @@ export default {
 }
 
 .project {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .project .card {
