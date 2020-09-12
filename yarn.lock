@@ -2295,6 +2295,11 @@ chownr@^1.1.1, chownr@^1.1.2:
   resolved "https://registry.npm.taobao.org/chownr/download/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha1-b8nXtC0ypYNZYzdmbn0ICE2izGs=
 
+chroma-js@^1.3.5:
+  version "1.4.1"
+  resolved "https://registry.npm.taobao.org/chroma-js/download/chroma-js-1.4.1.tgz#eb2d9c4d1ff24616be84b35119f4d26f8205f134"
+  integrity sha1-6y2cTR/yRha+hLNRGfTSb4IF8TQ=
+
 chrome-trace-event@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/chrome-trace-event/download/chrome-trace-event-1.0.2.tgz#234090ee97c7d4ad1a2c4beae27505deffc608a4"
@@ -7756,12 +7761,20 @@ vue-typed-js@^0.1.2:
   dependencies:
     typed.js "git+https://github.com/mattboldt/typed.js.git"
 
+vue-world-map@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npm.taobao.org/vue-world-map/download/vue-world-map-0.1.1.tgz#7a1cba1b77abe67d09645cc4dd36d47a84c47a02"
+  integrity sha1-ehy6G3er5n0JZFzE3TbUeoTEegI=
+  dependencies:
+    chroma-js "^1.3.5"
+    vue "^2.5.2"
+
 vue2-animate@^2.1.4:
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/vue2-animate/download/vue2-animate-2.1.4.tgz#7a241b8a0f839d97b9df63d4551fbe666354175e"
   integrity sha1-eiQbig+DnZe532PUVR++ZmNUF14=
 
-vue@^2.2.6, vue@^2.6.11, vue@^2.6.12:
+vue@^2.2.6, vue@^2.5.2, vue@^2.6.11, vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha1-9evU+mvShpQD4pqJau1JBEVskSM=
