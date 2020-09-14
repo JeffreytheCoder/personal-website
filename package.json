@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "push-dir --dir=dist master=gh-pages --cleanup",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
