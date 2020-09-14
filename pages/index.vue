@@ -3,7 +3,9 @@
     <template>
       <el-backtop class="backtop"></el-backtop>
     </template>
-    <particles-bg class="particles-bg" type="cobweb" color="black" num=50 :bg="false"/>
+    <client-only placeholder="Loading...">
+      <particles-bg class="particles-bg" type="cobweb" color="black" num=50 :bg="false"/>
+    </client-only>
     <!-- "color"
     "ball"
     "lines"
