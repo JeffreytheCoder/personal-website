@@ -22,7 +22,8 @@ export default {
       { hid: "Who is Zepeng Yu | Zepeng Yu's personal website", name: "Who is Zepeng Yu | Zepeng Yu's personal website", content: "Who is Zepeng Yu | Zepeng Yu's personal website" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/yu_logo.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/yu_logo.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap'}
     ]
   },
   /*
