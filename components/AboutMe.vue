@@ -4,7 +4,7 @@
       <a name="about-me"><i class="el-icon-user"></i> About Me</a>
     </h1>
     <div class="about-me">
-      <img class="avatar" src="@/assets/img/avatar.jpg" />
+      <img class="avatar" src="@/assets/img/avatar2.jpg" />
       <p class="description">I am currently a frontend developer who enjoyed in designing, developing, and maintaining complex web apps. 
         Skilled in <span style="font-weight: 600; color: #E31B6D">Vue.js, JavaScript, and Python</span>. I am passionate about building frontier software and becoming a full-stack developer. 
         I am currently a Math of Computation undergraduate freshman at <span style="font-weight: 600; color: #E31B6D">University of California, Los Angeles.</span></p>
