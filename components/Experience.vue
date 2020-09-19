@@ -14,7 +14,7 @@
         ▪ Increased customer base by 15% by visualizing the performance of the real-time assets with ECharts<br><br>
       </p>
     </div><br>
-    <!-- <div class="experience">
+    <div class="experience">
       <img class="avatar" src="@/assets/img/pioneer.png" />
       <p class="description">
         <span class="title">Researcher <a class="link" href="https://pioneeracademics.com/" target="_blank"><span style="font-weight: 600; color: #E31B6D">@ Pioneer Academics</span></a></span><br>
@@ -22,7 +22,7 @@
         ▪ Guided by Prof. Anasse Bari from New York University, applied KNN and Hierarchical clustering algorithms to analyze the digital images of breast masses using RapidMiner, predicted accuracy of breast cancer diagnosis reaching 85.3%<br><br>
         <a class="link" href="https://drive.google.com/file/d/1XvYTME5-CbPUiLMOzt0F_VmWop5SQjJ1/view?usp=sharing" target="_blank"><span style="font-weight: 500; color: #E31B6D">> VIEW PAPER</span></a>
       </p>
-    </div><br> -->
+    </div><br>
     <div class="experience">
       <img class="avatar" src="@/assets/img/guangdong.png" />
       <p class="description">
