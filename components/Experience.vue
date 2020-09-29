@@ -9,7 +9,7 @@
         <span class="title">Frontend Developer <a class="link" href="http://techfin.ai/" target="_blank"><span style="font-weight: 600; color: #E31B6D">@ TechFin.AI</span></a></span><br>
         <span class="time">Jul 2020 - Present (3 mos)</span><br><br>
         A Quantitative Hedge Funds Start-up with DMAT Deep Learning Algorithms<br>
-▪ Built an alpha evaluation site with Vue.js, allowing 30+ engineers to edit, run and share Python script online<br>
+▪ Built an alpha evaluation site with Vue.js, allowing 30+ engineers to edit, run and share Python script online <br>
 ▪ Visualized real-time assets performance using ECharts and optimized rendering with Vuex and CDN service<br>
 ▪ Improved platform security by implementing trader authority using Axios interceptor and dynamic routing<br>
 ▪ Communicated with UI designers and built a new official website using Nuxt.js for SEO optimization<br>
