@@ -60,7 +60,7 @@
             </el-row>
           </el-col>
           <el-col style="line-height: 3;" :span="8">
-            <p><i class="el-icon-user"></i> Zepeng Yu</p>
+            <p><i class="el-icon-user"></i> Zepeng (Jeffrey) Yu</p>
             <p><i class="el-icon-message"></i> jeffreyzepengyu@ucla.edu</p>
             <p><i class="el-icon-school"></i> Los Angeles, CA | Shenzhen, China</p>
           </el-col>
