@@ -7,7 +7,7 @@
       <img class="avatar" src="@/assets/img/techfin.png" />
       <p class="description">
         <span class="title">Frontend Developer <a class="link" href="http://techfin.ai/" target="_blank"><span style="font-weight: 600; color: #E31B6D">@ TechFin.AI</span></a></span><br>
-        <span class="time">Jul 2020 - Present (3 mos)</span><br><br>
+        <span class="time">Jul 2020 - Oct 2020 (3 mos)</span><br><br>
         A Quantitative Hedge Funds Start-up with DMAT Deep Learning Algorithms<br>
 ▪ Built an alpha evaluation site with Vue.js, allowing 30+ engineers to edit, run and share Python script online <br>
 ▪ Visualized real-time assets performance using ECharts and optimized rendering with Vuex and CDN service<br>

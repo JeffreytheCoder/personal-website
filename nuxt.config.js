@@ -15,11 +15,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Zepeng Yu',
+    title: 'Jeffrey Yu',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: "Who is Zepeng Yu | Zepeng Yu's personal website", name: "Who is Zepeng Yu | Zepeng Yu's personal website", content: "Who is Zepeng Yu | Zepeng Yu's personal website" }
+      { hid: "Who is Jeffrey Yu | Personal Website", name: "Who is Jeffrey Yu | Personal Website", content: "Who is Jeffrey Yu | Personal Website" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/yu_logo.ico' },

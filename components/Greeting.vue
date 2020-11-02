@@ -2,7 +2,7 @@
   <div class="greeting-block" data-aos="fade-up">
     <h1 class="hello-world">Hello World</h1>
     <vue-typed-js 
-      :strings="['Zepeng Yu', 'a Software Engineer', 'a Student', 'a Thinker', 'an Environmentalist', 'a Pioneer']" 
+      :strings="['Jeffrey Yu', 'a Software Engineer', 'a Student', 'a Thinker', 'an Environmentalist', 'a Pioneer']" 
       :typeSpeed="50" 
       :backSpeed="50"
       :startDelay="1000" 
