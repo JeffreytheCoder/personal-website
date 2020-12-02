@@ -7,7 +7,7 @@
       <img class="avatar" src="@/assets/img/avatar2.jpg" />
       <p class="description">I am a Software Engineer with three years of coding experience. I am passionate about building frontier software that brings changes. 
         Skilled in <span style="font-weight: 600; color: #E31B6D">Python, JavaScript, and Vue.js. </span>
-        Currently a Math of Computation undergraduate freshman at <span style="font-weight: 600; color: #E31B6D">University of California, Los Angeles.</span></p>
+        Currently a Computer Science undergraduate freshman at <span style="font-weight: 600; color: #E31B6D">University of California, Los Angeles.</span></p>
     </div><br>
     <!-- <div class="skill-block">
       <div class="skill">

@@ -10,7 +10,7 @@
       <el-menu-item class="nav-header-item">Jeffrey Yu</el-menu-item>
     </a>
     <a class="header-a" href="https://github.com/JeffreytheCoder/personal-website" style="float: left;" target="_blank">
-      <el-menu-item class="nav-header-item" style="font-weight: 600; color: #E31B6D">v1.0.5</el-menu-item>
+      <el-menu-item class="nav-header-item" style="font-weight: 600; color: #E31B6D">v1.1.5</el-menu-item>
     </a>
     <a class="header-a" href="#" v-scroll-to="'#contact'">
       <el-menu-item class="nav-header-item">Contact</el-menu-item>
