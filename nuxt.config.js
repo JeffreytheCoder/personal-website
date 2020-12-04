@@ -21,6 +21,9 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: "Who is Jeffrey Yu | Personal Website", name: "Who is Jeffrey Yu | Personal Website", content: "Who is Jeffrey Yu | Personal Website" }
     ],
+    // script: [
+    //   { innerHTML: require('./assets/js/flexible_nuxt'), type: 'text/javascript', charset: 'utf-8'}
+    // ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/yu_logo.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap'}
@@ -66,6 +69,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-    vendor: ['axios']
+    vendor: ['axios'],
+    // postcss: [
+    //   require('postcss-px2rem')({
+    //     remUnit: 75
+    //   })
+    // ],
   }
 }
